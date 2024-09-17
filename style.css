@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    animation: fadeIn 3s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
